@@ -1,68 +1,80 @@
 # 📊 Human Resources Dashboard
 
-This repository contains a **Human Resources (HR) Dashboard** that provides insights into workforce data, demographics, and income distribution. The dashboard enables interactive exploration of employee data with action filters applied across multiple sheets.
+This repository contains a Human Resources Dashboard that provides insights into employee demographics, department-level distribution, hiring and termination trends, and income analysis.  
 
 ---
 
-## 🔎 Overview
+## 🖼 Dashboard Preview
 
-- **Total Active Employees:** 7,984  
-- **Hired Employees:** 8,950  
-- **Terminated Employees:** 966  
+### Main Dashboard
+<img width="1400" height="800" alt="HR  Summary" src="https://github.com/user-attachments/assets/b4672c18-ea57-429d-b935-460ed2de7050" />
 
-### Key Insights
-1. **Breakdown of Employees by Department & Job Titles**  
-   - Shows the distribution of employees across various departments like Operations, Sales, Customer Service, IT, Marketing, Finance, and HR.
 
-2. **HQ vs Branch Comparison**  
-   - Compares total employees between **Headquarters (New York)** and other branches.
-
-3. **Geographical Distribution**  
-   - Visualizes employees across **cities and states**.
+- **Overview:** Active employees, hired, and terminated employees.  
+- **Departments:** Breakdown of employees by department with hires and terminations.  
+- **Location:** HQ (New York) vs branches and geographical distribution.  
+- **Demographics:** Gender ratio, age & education distribution, performance vs education.  
+- **Income:** Salary comparison across education levels by gender and correlation of age with salary.  
 
 ---
 
-## 👥 Demographics
+### Employee Record View
 
-1. **Gender Ratio**  
-   - Presents the overall male vs female ratio in the company.
+<img width="1400" height="800" alt="HR  Details" src="https://github.com/user-attachments/assets/3c820553-4095-4f7a-9acb-4f0e2fc4c6d0" />
 
-2. **Age & Education Distribution**  
-   - Visualizes employees across different **age groups**.  
-   - Shows the **total number of employees** within each **education level** (High School, Bachelor, Master, PhD).
-
-3. **Education & Performance Correlation**  
-   - Compares employee performance ratings across educational backgrounds (Excellent, Good, Satisfactory, Needs Improvement).
-
----
-
-## 💰 Income Analysis
-
-1. **Education & Gender Salary Comparison**  
-   - Identifies salary differences across education levels for **male and female employees**.
-
-2. **Age vs Salary**  
-   - Correlates employee age with salary across departments (e.g., HR Manager, Operations Manager, Finance Manager, IT Manager, etc.).
+- Contains details of:  
+  - Employee ID  
+  - Hire Date  
+  - Terminated Date  
+  - Department  
+  - Education  
+  - Performance Rating  
+  - Other HR attributes  
 
 ---
 
-## 🛠 Dashboard Building Summary
+## 📌 Graphs Summary
 
-- **Action Filters:** Used to dynamically filter data across multiple sheets.  
-- **Employee Record View:** Interactive records of employees are accessible.  
-- **Sketching & Dashboard Notes:** (Reference: 9240226213)
+### Overview Section
+- Shows the **total active employees (7,984)**, along with **hired (8,950)** and **terminated (966)** employees.  
+- Line charts display the trend of hires (green line) and terminations (pink line) over time.  
+
+### Department Breakdown
+- Operations – 2,429 hired, 289 terminated  
+- Sales – 1,634 hired  
+- Customer Service – 1,489 hired  
+- IT – 1,243 hired  
+- Marketing – 648 hired  
+- Finance – 389 hired  
+- HR – smallest headcount  
+
+### Location Distribution
+- Map shows employees across states like New York, Michigan, Illinois, Pennsylvania.  
+- Bar chart compares **HQ (70%) vs Branches (30%)**.  
 
 ---
 
-## 🔗 Links
-
-- **LinkedIn:** [Puli Bharat](https://www.linkedin.com/in/puli-bharat-58040a310/)  
-- **Dashboard Preview:** See `HR Summary.png` in this repo  
+### Demographics Section
+- **Gender Ratio**: Male 54%, Female 46% (both with 89% hired, 11% terminated).  
+- **Education & Age**: Largest group is Bachelor’s degree holders aged 35–44.  
+- **Education & Performance**: PhDs dominate in “Excellent”, Bachelor’s mostly rated “Good (50%)”, High School employees more in “Needs Improvement”.  
 
 ---
 
-## 📌 Author
+### Income Section
+- **Education & Gender Salaries**:  
+  - High School: ~63K  
+  - Bachelor: Male 66K, Female 74K  
+  - Master: Male 80K, Female 86K  
+  - PhD: Male 80K, Female 93K  
 
-**Puli Bharat**  
-*Passionate about Data Analytics & Visualization*  
+- **Age & Salary Correlation**:  
+  - HR Assistant ~60K  
+  - Sales Specialist ~70K  
+  - HR Manager ~85K  
+  - Financial Analyst, Sales Consultant ~90K  
+  - Operations Manager ~100K  
+  - IT Manager ~110K  
+  - Finance Manager ~120K  
 
+---
