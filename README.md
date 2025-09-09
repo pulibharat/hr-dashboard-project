@@ -78,3 +78,10 @@ This repository contains a Human Resources Dashboard that provides insights into
   - Finance Manager ~120K  
 
 ---
+
+## 🌐 Interactive Dashboard
+
+Click the image below to explore the live Tableau dashboard 👇  
+
+[![HR Dashboard](HR%20Summary.png)](https://public.tableau.com/app/profile/puli.bharat/viz/HRDashboard_17573076736730/HRSummary)
+
